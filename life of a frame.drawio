@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T00:13:53.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="739YaRdoGMntlZsveY1J" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T00:43:37.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="NbtBk3_nhssdtyMCsqmP" version="20.3.3" type="github">
   <diagram id="MoS_SwR99Cp15dBgRmQF" name="第 1 页">
     <mxGraphModel dx="1421" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="pqptfYR2I7CsKhLC1KfL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;container=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="50" y="350" width="1720" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="pqptfYR2I7CsKhLC1KfL-5" value="浏览器的一帧数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Architects Daughter;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="300" width="110" height="30" as="geometry" />
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-5" value="浏览器的一帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=34;fontFamily=Architects Daughter;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="290" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pqptfYR2I7CsKhLC1KfL-4" value="阻塞输入事件" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;container=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="360" width="90" height="150" as="geometry">
