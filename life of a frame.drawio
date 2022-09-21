@@ -1,19 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T00:00:40.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="rVE9FRTx8zkiFhtQ_Wmq" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T00:13:53.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="739YaRdoGMntlZsveY1J" version="20.3.3" type="github">
   <diagram id="MoS_SwR99Cp15dBgRmQF" name="第 1 页">
-    <mxGraphModel dx="734" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pqptfYR2I7CsKhLC1KfL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;container=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="50" y="350" width="600" height="220" as="geometry" />
+          <mxGeometry x="50" y="350" width="1720" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="pqptfYR2I7CsKhLC1KfL-5" value="a frame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Architects Daughter;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="305" y="295" width="70" height="30" as="geometry" />
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-5" value="浏览器的一帧数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Architects Daughter;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="300" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pqptfYR2I7CsKhLC1KfL-4" value="阻塞输入事件" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;container=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="360" width="90" height="150" as="geometry">
             <mxRectangle x="100" y="385" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-13" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="pqptfYR2I7CsKhLC1KfL-9" target="pqptfYR2I7CsKhLC1KfL-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pqptfYR2I7CsKhLC1KfL-9" value="非阻塞输入事件" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;container=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="90" height="150" as="geometry">
@@ -22,6 +25,37 @@
         </mxCell>
         <mxCell id="pqptfYR2I7CsKhLC1KfL-11" value="输入事件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="70" y="510" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-15" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="pqptfYR2I7CsKhLC1KfL-12" target="pqptfYR2I7CsKhLC1KfL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-12" value="执行JS事件&lt;br&gt;（宏任务+微任务）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;container=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="110" height="150" as="geometry">
+            <mxRectangle x="100" y="385" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-17" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="pqptfYR2I7CsKhLC1KfL-14" target="pqptfYR2I7CsKhLC1KfL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-14" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;开始帧&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/font&gt;&lt;ul style=&quot;box-sizing: border-box; list-style-position: initial; list-style-image: initial; margin: 8px 0px 0px; padding: 0px 0px 0px 1.25rem; color: rgb(33, 53, 71); font-family: &amp;quot;Inter var experimental&amp;quot;, &amp;quot;Inter var&amp;quot;, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;window.resize&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;scroll&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;mediaquery changed （媒体查询）&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;animation events （动画事件）&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=11;container=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="210" height="150" as="geometry">
+            <mxRectangle x="100" y="385" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-22" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="pqptfYR2I7CsKhLC1KfL-16" target="pqptfYR2I7CsKhLC1KfL-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-16" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;执行 RAF (RequestAnimationFrame)&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=0;hachureGap=4;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-24" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="pqptfYR2I7CsKhLC1KfL-21" target="pqptfYR2I7CsKhLC1KfL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-21" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif&quot; color=&quot;#404040&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;渲染&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ul style=&quot;box-sizing: border-box; list-style-position: initial; list-style-image: initial; margin: 8px 0px 0px; padding: 0px 0px 0px 1.25rem; color: rgb(33, 53, 71); font-family: &amp;quot;Inter var experimental&amp;quot;, &amp;quot;Inter var&amp;quot;, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;样式计算&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px;&quot;&gt;布局&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px;&quot;&gt;重绘&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 8px;&quot;&gt;合成&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=0;hachureGap=4;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;spacing=3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="360" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pqptfYR2I7CsKhLC1KfL-23" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Segoe UI, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif&quot; color=&quot;#404040&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(255, 255, 255);&quot;&gt;requestIdleCallback回调（空闲时间）&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Architects Daughter;rounded=0;hachureGap=4;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;spacingLeft=0;align=center;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="360" width="230" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
