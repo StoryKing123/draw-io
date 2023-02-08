@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T11:50:50.429Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="7vaWtnZ1kfsItVr1NeWp" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T12:35:23.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="V3Ea9aZeHaPat5SRaXT7" version="20.8.13" type="github">
   <diagram name="第 1 页" id="V0COgpP89dOGvzGSUEoR">
     <mxGraphModel dx="1329" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,20 @@
         <mxCell id="HlPjlZRa1s9N4S-ejo73-3" value="资源请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="180" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="HlPjlZRa1s9N4S-ejo73-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="HlPjlZRa1s9N4S-ejo73-6" target="HlPjlZRa1s9N4S-ejo73-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HlPjlZRa1s9N4S-ejo73-6" value="Expire" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlPjlZRa1s9N4S-ejo73-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="HlPjlZRa1s9N4S-ejo73-8" target="HlPjlZRa1s9N4S-ejo73-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlPjlZRa1s9N4S-ejo73-8" value="ETag" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HlPjlZRa1s9N4S-ejo73-10" value="Last Modified" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
