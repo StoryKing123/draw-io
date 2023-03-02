@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T09:47:13.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="GywyNSmpMT-j8oYiB-X7" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T09:52:30.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="BhY16UTNELSrB8h2F1eN" version="20.2.2" type="github">
   <diagram name="第 1 页" id="ejHZZwVxkcxiUhgQxFvp">
     <mxGraphModel dx="1771" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8DuH4D30n_TOJNGaP2V3-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="340" width="340" height="720" as="geometry" />
+          <mxGeometry x="10" y="340" width="370" height="1380" as="geometry" />
         </mxCell>
         <mxCell id="8DuH4D30n_TOJNGaP2V3-2" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="710" y="335" width="230" height="485" as="geometry" />
+          <mxGeometry x="690" y="320" width="370" height="1410" as="geometry" />
         </mxCell>
         <mxCell id="8DuH4D30n_TOJNGaP2V3-3" value="Browser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="290" width="60" height="30" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="320" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8DuH4D30n_TOJNGaP2V3-7" value="Client random" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="364" y="430" width="100" height="30" as="geometry" />
+          <mxGeometry x="400" y="430" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8DuH4D30n_TOJNGaP2V3-8" value="TLS版本" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="475" y="430" width="70" height="30" as="geometry" />
+          <mxGeometry x="500" y="430" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8DuH4D30n_TOJNGaP2V3-9" value="支持的加密套件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="430" width="110" height="30" as="geometry" />
@@ -31,8 +31,8 @@
         <mxCell id="8DuH4D30n_TOJNGaP2V3-10" value="根据客户端支持的加密套件，TLS版本，决定使用TLS版本和加密套件" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="460" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YwsV2tQjAxOrFVRIQESy-3" value="Server random&amp;nbsp; 包含公钥的证书&amp;nbsp; TLS版本 使用的加密套件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="550" width="400" height="30" as="geometry" />
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-3" value="Server random&amp;nbsp; 包含公钥的证书&amp;nbsp; &lt;br&gt;TLS版本 使用的加密套件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YwsV2tQjAxOrFVRIQESy-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwsV2tQjAxOrFVRIQESy-5" target="YwsV2tQjAxOrFVRIQESy-6">
           <mxGeometry relative="1" as="geometry" />
@@ -88,8 +88,32 @@
         <mxCell id="YwsV2tQjAxOrFVRIQESy-24" value="浏览器内部植入常用认证机关的公开密钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="140" width="130" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-28" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwsV2tQjAxOrFVRIQESy-25" target="YwsV2tQjAxOrFVRIQESy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YwsV2tQjAxOrFVRIQESy-25" value="生成随机数secret_random" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1130" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="1120" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-27" value="根据client_random,server_random,secret_random，生成对话密钥session_key" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1300" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-29" value="用服务器公钥加密secret_random发送给服务端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1210" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-32" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwsV2tQjAxOrFVRIQESy-30" target="YwsV2tQjAxOrFVRIQESy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-30" value="使用私钥解密得到secret_random" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1230" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-31" value="根据client_random,server_random,secret_random，生成对话密钥session_key" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1350" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8DuH4D30n_TOJNGaP2V3-2" target="8DuH4D30n_TOJNGaP2V3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwsV2tQjAxOrFVRIQESy-37" value="之后传输都是用session_key进行加解密（对称加密）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1560" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
