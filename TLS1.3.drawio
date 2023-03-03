@@ -1,20 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T02:36:40.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="S0tMjaMe3kgVTakBte_0" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T02:37:38.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57" etag="MHWLMd5QPXzgPlnRz5sc" version="20.2.2" type="github">
   <diagram id="0NTNLh-U5uzJvuzSnRtJ" name="Page-1">
     <mxGraphModel dx="944" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="hDuhFSbgmhudrbEyn56O-2" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="60" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hDuhFSbgmhudrbEyn56O-3" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="800" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hDuhFSbgmhudrbEyn56O-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hDuhFSbgmhudrbEyn56O-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hDuhFSbgmhudrbEyn56O-7" value="TLS 版本号、一个 Client Random 值（随机数）、支持的密码套件、支持的压缩算法、SNI" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="510" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
